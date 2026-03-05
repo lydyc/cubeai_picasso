@@ -1,0 +1,8 @@
+pedestrian
+people
+bicycle
+car
+bus
+truck
+tricycle
+motor

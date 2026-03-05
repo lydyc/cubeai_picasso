@@ -1,0 +1,18 @@
+{
+    "description": "避雷器监测表识别/语义分割",
+    "engine_id": "ArresterMeterUser",
+    "server_id": "arrester_meter_server",
+    "concurrency": 2,
+    "engine_type": "ENGINE_USERDEFINE",
+    "task_type": "USER_DEFINE",
+    "infer_device": "GPU:0",
+    "labeloffset": 326,
+    "max_batch_size": 4,
+    "modelfile": "./model/arrester_meter_user_v24.01.01.m",
+    "modeltype": "TYPE_TENSORRT",
+    "src_model_file": "arrester_meter_v24.01.01_dynamic.onnx",
+    "trt_model_file": "arrester_meter_user_v24.01.01.trt7",
+    "m_model_file": "arrester_meter_user_v24.01.01.m",
+    "precision": 1,
+    "suffix": "-d"
+}

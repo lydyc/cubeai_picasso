@@ -1,0 +1,19 @@
+{
+    "description": "自定义车牌识别",
+    "engine_id": "LPRUser",
+    "server_id": "lpr_detect_server",
+    "concurrency": 2,
+    "engine_type": "ENGINE_USERDEFINE",
+    "task_type": "USER_DEFINE",
+    "infer_device": "GPU:0",
+    "labeloffset": 101,
+    "max_batch_size": 4,
+    "modelfile": "./model/lpr_xml_v1.0.0.m:./model/lpr_align_v1.0.0.m:./model/lpr_reg_v1.0.0.m",
+    "modeltype": "TYPE_TENSORRT",
+    "type_result_cvter": "Face",
+    "src_model_file": "cascade.xml:HorizonalFinemapping.caffemodel:SegmenationFree-Inception.caffemodel",
+    "trt_model_file": "lpr_xml_v1.0.0.xml:lpr_align_v1.0.0.trt7:lpr_reg_v1.0.0.trt7",
+    "m_model_file": "lpr_xml_v1.0.0.m:lpr_align_v1.0.0.m:lpr_reg_v1.0.0.m",
+    "precision": 0,
+    "suffix": ""
+}

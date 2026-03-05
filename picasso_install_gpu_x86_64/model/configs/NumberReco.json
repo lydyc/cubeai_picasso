@@ -1,0 +1,23 @@
+{
+    "description": "数字识别",
+    "engine_id": "NumberReco",
+    "server_id": "number_server",
+    "concurrency": 2,
+    "engine_type": "ENGINE_RECOGNIZER",
+    "task_type": "RECOGNIZE",
+    "infer_device": "GPU:0",
+    "input_size": "320X96",
+    "labeloffset": 365,
+    "max_batch_size": 4,
+    "mean_values": "127.5;127.5;127.5",
+    "modelfile": "./model/number_reco_v24.01.01.m",
+    "modeltype": "TYPE_TENSORRT",
+    "objectType": 3602,
+    "output_blobs_names": "softmax_2.tmp_0",
+    "scale_values": "0.00784314;0.00784314;0.00784314",
+    "src_model_file": "number_recognize_v24.01.01_dynamic.onnx",
+    "trt_model_file": "number_reco_v24.01.01.trt7",
+    "m_model_file": "number_reco_v24.01.01.m",
+    "precision": 1,
+    "suffix": "-d"
+}

@@ -1,0 +1,18 @@
+{
+    "description": "断路器储能指针识别/语义分割",
+    "engine_id": "BreakerUser",
+    "server_id": "breaker_server",
+    "concurrency": 2,
+    "engine_type": "ENGINE_USERDEFINE",
+    "task_type": "USER_DEFINE",
+    "infer_device": "GPU:0",
+    "labeloffset": 330,
+    "max_batch_size": 4,
+    "modelfile": "./model/breaker_user_v24.01.01.m",
+    "modeltype": "TYPE_TENSORRT",
+    "src_model_file": "breaker_v24.01.01_dynamic.onnx",
+    "trt_model_file": "breaker_user_v24.01.01.trt7",
+    "m_model_file": "breaker_user_v24.01.01.m",
+    "precision": 1,
+    "suffix": "-d"
+}

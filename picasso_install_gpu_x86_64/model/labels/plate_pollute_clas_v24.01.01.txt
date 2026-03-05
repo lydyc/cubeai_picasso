@@ -1,0 +1,5 @@
+normal
+broken
+lost
+dirty
+unknown

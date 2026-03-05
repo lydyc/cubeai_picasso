@@ -1,0 +1,20 @@
+{
+    "description": "资产标签检测/语义分割",
+    "engine_id": "AssetTagUser",
+    "server_id": "asset_tag_dete_server",
+    "concurrency": 2,
+    "engine_type": "ENGINE_USERDEFINE",
+    "type_resizer": "padded",
+    "task_type": "USER_DEFINE",
+    "infer_device": "GPU:0",
+    "labeloffset": 405,
+    "max_batch_size": 4,
+    "modelfile": "./model/asset_tag_dete_user_v24.04.15.m",
+    "modeltype": "TYPE_TENSORRT",
+    "src_model_file": "asset_tag_dete_v24.04.15_dynamic.onnx",
+    "trt_model_file": "asset_tag_dete_user_v24.04.15.trt7",
+    "m_model_file": "asset_tag_dete_user_v24.04.15.m",
+    "swapBR": false,
+    "precision": 1,
+    "suffix": "-d"
+}

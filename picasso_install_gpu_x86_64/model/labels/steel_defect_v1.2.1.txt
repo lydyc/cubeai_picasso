@@ -1,0 +1,5 @@
+background
+mixed_area_white_noise_black_noise
+vertical_black_scratches
+white_noise_scratches
+black_bulge

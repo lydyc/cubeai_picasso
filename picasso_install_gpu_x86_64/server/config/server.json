@@ -1,0 +1,373 @@
+[
+    {
+        "server_id": "face_server", 
+        "engine_list": "face_detect_server,face_proc_server,face_feature_server,face_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "FEATURE,ATTRIBUTE,DETECT,DETECT_BEST,ALL",
+            "FEATURE,ATTRIBUTE,DETECT_BEST,ALL",
+            "FEATURE,ALL,",
+            "ATTRIBUTE,ALL,"
+        ]
+    },
+    {
+        "server_id": "huoti_face_server", 
+        "engine_list": "face_detect_server,face_proc_server,huoti_class_server,face_feature_server,face_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "FEATURE,ATTRIBUTE,DETECT,DETECT_BEST,CLASSIFY,ALL",
+            "FEATURE,ATTRIBUTE,DETECT_BEST,CLASSIFY,ALL",
+            "FEATURE,ATTRIBUTE,DETECT_BEST,CLASSIFY,ALL",
+            "FEATURE,ALL,",
+            "ATTRIBUTE,ALL,"
+        ]
+    },
+    {
+        "server_id": "lite_face_server", 
+        "engine_list": "lite_face_detect_server,face_proc_server,face_feature_server,face_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "FEATURE,ATTRIBUTE,DETECT,DETECT_BEST,ALL",
+            "FEATURE,ATTRIBUTE,DETECT_BEST,ALL",
+            "FEATURE,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "face_infrared_server",
+        "engine_list": "face_detect_server,face_proc_server,face_feature_infrared_server,face_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "FEATURE,ATTRIBUTE,DETECT,DETECT_BEST,ALL",
+            "FEATURE,ATTRIBUTE,DETECT_BEST,ALL",
+            "FEATURE,ALL,",
+            "ATTRIBUTE,ALL,"
+        ]
+    },
+    {
+        "server_id": "lite_face_infrared_server", 
+        "engine_list": "lite_face_detect_server,face_proc_server,face_feature_infrared_server,face_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "FEATURE,ATTRIBUTE,DETECT,DETECT_BEST,ALL",
+            "FEATURE,ATTRIBUTE,DETECT_BEST,ALL",
+            "FEATURE,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "reid_server", 
+        "engine_list": "person_detect_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT"
+        ]
+    },
+    {
+        "server_id": "person_server", 
+        "engine_list": "person_detect_server,person_proc_server,person_feature_server,person_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,FEATURE,ATTRIBUTE,ALL",
+            "DETECT,FEATURE,ATTRIBUTE,ALL",
+            "FEATURE,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "protective_suit_server", 
+        "engine_list": "person_detect_server,person_proc_server,suit_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "vehicle_server", 
+        "engine_list": "vehicle_dete_server,vehicle_proc_server,vehicle_feature_server,vehicle_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "FEATURE,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "non_vehicle_server", 
+        "engine_list": "non_vehicle_dete_server,non_vehicle_proc_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT",
+            "DETECT"
+        ]
+    },
+    {
+        "server_id": "rider_server", 
+        "engine_list": "reid_yolo_detect_server,rider_proc_server,rider_attribute_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "muck_truck_server", 
+        "engine_list": "muck_truck_detect_server,muck_truck_classify_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "CLASSIFY,ALL"
+        ]
+    },
+    {
+        "server_id": "safety_wear_server", 
+        "engine_list": "person_detect_server,safety_wear_detect_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT",
+            "DETECT"
+        ]
+    },
+    {
+        "server_id": "helmet_server", 
+        "engine_list": "person_detect_server,person_proc_server,helmet_dete_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "DETECT,ALL"
+        ]
+    },
+    {
+        "server_id": "safety_wear_electric_server", 
+        "engine_list": "person_detect_server,person_proc_server,safety_wear_electric_detect_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT",
+            "DETECT",
+            "DETECT"
+        ]
+    },
+    {
+        "server_id": "safety_wear_attr_server",
+        "engine_list": "person_detect_server,sfwear_attr_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "smoke_call_server", 
+        "engine_list": "person_detect_server,smoke_call_detect_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT",
+            "DETECT"
+        ]
+    },
+    {
+        "server_id": "smoke_call_attr_server", 
+        "engine_list": "person_detect_server,smkcall_attr_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "animal_server", 
+        "engine_list": "common_server,animal_proc_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT",
+            "DETECT"
+        ]
+    },
+    {
+        "server_id": "meter_server", 
+        "engine_list": "meter_detect_server,meter_recognize_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "RECOGNIZE,ALL"
+        ]
+    },
+    {
+        "server_id": "vehicle_plate_server", 
+        "engine_list": "vehicle_dete_server,vehicle_proc_server,plate_detect_server,plate_recognize_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "RECOGNIZE,ALL"
+        ]
+    },
+    {
+        "server_id": "plate_pollute_server", 
+        "engine_list": "vehicle_dete_server,vehicle_proc_server,plate_pollute_clas_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "CLASSIFY,ALL"
+        ]
+    },
+    {
+        "server_id": "muck_truck_plate_server", 
+        "engine_list": "muck_truck_detect_server,muck_truck_proc_server,plate_detect_server,plate_recognize_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "RECOGNIZE,ALL"
+        ]
+    },
+    {
+        "server_id": "vehicle_distance_server", 
+        "engine_list": "vehicle_dete_server,vehicle_proc_server,distance_recognize_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "RECOGNIZE,ALL"
+        ]
+    },
+    {
+        "server_id": "ocr_server", 
+        "engine_list": "text_dete_server,text_recognize_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "USER_DEFINE,ALL",
+            "RECOGNIZE,ALL"
+        ]
+    },
+    {
+        "server_id": "identification_server", 
+        "engine_list": "text_dete_server,text_recognize_server,identification_proc_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "USER_DEFINE,ALL",
+            "RECOGNIZE,ALL",
+            "DETECT,ALL"
+        ]
+    },
+    {
+        "server_id": "driving_license_server", 
+        "engine_list": "text_dete_server,text_recognize_server,driving_license_proc_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "USER_DEFINE,ALL",
+            "RECOGNIZE,ALL",
+            "DETECT,ALL"
+        ]
+    },
+    {
+        "server_id": "lose_legacy_server", 
+        "engine_list": "person_detect_server,lose_legacy_reco_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "RECOGNIZE,ALL"
+        ]
+    },
+    {
+        "server_id": "drink_water_attribute_server", 
+        "engine_list": "person_detect_server,person_proc_server,drink_water_attr_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "ATTRIBUTE,ALL"
+        ]
+    },
+    {
+        "server_id": "drink_water_server", 
+        "engine_list": "person_detect_server,person_proc_server,drink_water_dete_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT",
+            "DETECT",
+            "DETECT"
+        ]
+    },
+    {
+        "server_id": "fall_down_server", 
+        "engine_list": "person_detect_server,person_proc_server,fall_down_clas_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "DETECT,ALL",
+            "DETECT,ALL",
+            "CLASSIFY,ALL"
+        ]
+    },
+    {
+        "server_id": "carry_items_server", 
+        "engine_list": "person_detect_server,person_proc_server,carry_items_detect_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT",
+            "DETECT",
+            "DETECT"
+        ]
+    },
+    {
+        "server_id": "china_mobile_asset_tag_server", 
+        "engine_list": "asset_tag_dete_server,asset_tag_recognize_server", 
+        "task_type": "ALL", 
+        "task_type_list": 
+        [
+            "USER_DEFINE,ALL",
+            "RECOGNIZE,ALL"
+        ]
+    },
+    {
+        "server_id": "chef_white_server", 
+        "engine_list": "person_detect_server,person_proc_server,chef_white_detect_server", 
+        "task_type": "DETECT", 
+        "task_type_list": 
+        [
+            "DETECT",
+            "DETECT",
+            "DETECT"
+        ]
+    }
+]

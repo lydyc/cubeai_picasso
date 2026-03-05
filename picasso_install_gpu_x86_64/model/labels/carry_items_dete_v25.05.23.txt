@@ -1,0 +1,4 @@
+backpack
+bag
+laptop
+device

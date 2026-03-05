@@ -1,0 +1,12 @@
+hat
+work_coat
+no_safety_belt
+insulating_glove
+work_pants
+boots
+shoes
+no_work_coat
+no_work_pants
+hand
+head
+safety_belt

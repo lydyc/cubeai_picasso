@@ -1,0 +1,6 @@
+personStanding
+personSitting
+personLieProne
+personLying
+personSquatting
+personUnknown

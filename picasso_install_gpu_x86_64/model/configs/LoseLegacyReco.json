@@ -1,0 +1,23 @@
+{
+    "description": "遗失遗留识别",
+    "engine_id": "LoseLegacyReco",
+    "server_id": "lose_legacy_reco_server",
+    "concurrency": 2,
+    "engine_type": "ENGINE_RECOGNIZER",
+    "task_type": "RECOGNIZE",
+    "infer_device": "GPU:0",
+    "input_size": "512X256",
+    "labeloffset": 386,
+    "max_batch_size": 4,
+    "mean_values": "123.675;116.28;103.53",
+    "modelfile": "./model/lose_legacy_reco_v24.08.05.m",
+    "modeltype": "TYPE_TENSORRT",
+    "objectType": 3605,
+    "output_blobs_names": "label",
+    "scale_values": "58.395;57.12;57.375",
+    "src_model_file": "lose_legacy_v24.08.05_dynamic.onnx",
+    "trt_model_file": "lose_legacy_reco_v24.08.05.trt7",
+    "m_model_file": "lose_legacy_reco_v24.08.05.m",
+    "precision": 1,
+    "suffix": "-d"
+}

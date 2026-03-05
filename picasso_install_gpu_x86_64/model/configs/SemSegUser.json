@@ -1,0 +1,18 @@
+{
+    "description": "语义分割识别",
+    "engine_id": "SemSegUser",
+    "server_id": "sem_seg_server",
+    "concurrency": 2,
+    "engine_type": "ENGINE_USERDEFINE",
+    "task_type": "USER_DEFINE",
+    "infer_device": "GPU:0",
+    "labeloffset": 50,
+    "max_batch_size": 4,
+    "modelfile": "./model/sem_seg_user_v24.01.01.m",
+    "modeltype": "TYPE_TENSORRT",
+    "src_model_file": "ssresnet18d_v24.01.01_dynamic.onnx",
+    "trt_model_file": "sem_seg_user_v24.01.01.trt7",
+    "m_model_file": "sem_seg_user_v24.01.01.m",
+    "precision": 1,
+    "suffix": ""
+}

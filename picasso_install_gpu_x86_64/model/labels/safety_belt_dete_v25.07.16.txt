@@ -1,0 +1,4 @@
+onground
+liffground
+safety_belt
+redarmband 

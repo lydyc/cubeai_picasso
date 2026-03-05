@@ -1,0 +1,18 @@
+{
+    "description": "车道线识别",
+    "engine_id": "LaneMarkUser",
+    "server_id": "lane_mark_server",
+    "concurrency": 2,
+    "engine_type": "ENGINE_USERDEFINE",
+    "task_type": "USER_DEFINE",
+    "infer_device": "GPU:0",
+    "labeloffset": 361,
+    "max_batch_size": 4,
+    "modelfile": "./model/lane_mark_user_v24.01.01.m",
+    "modeltype": "TYPE_TENSORRT",
+    "src_model_file": "lane_mark_v24.01.01_dynamic.onnx",
+    "trt_model_file": "lane_mark_user_v24.01.01.trt7",
+    "m_model_file": "lane_mark_user_v24.01.01.m",
+    "precision": 0,
+    "suffix": "-d"
+}

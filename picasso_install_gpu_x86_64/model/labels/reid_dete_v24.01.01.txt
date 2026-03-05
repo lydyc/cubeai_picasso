@@ -1,0 +1,8 @@
+vehicle
+vehicle
+person
+nonvehicle
+vehicle
+vehicle
+vehicle
+nonvehicle

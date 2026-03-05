@@ -1,0 +1,10 @@
+Cabinet_door_open
+Cooling_valve_close
+Cooling_valve_open
+carton
+other
+Computer_door_close
+Computer_door_open
+Other_door_open
+Other_door_close
+unusual

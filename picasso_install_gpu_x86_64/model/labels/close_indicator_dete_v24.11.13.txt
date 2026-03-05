@@ -1,0 +1,8 @@
+red_on
+red_off
+yellow_on
+yellow_off
+green_on
+green_off
+white_on
+white_off
